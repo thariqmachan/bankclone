@@ -1,0 +1,18 @@
+.loginform{
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+    margin: 7% auto;
+    padding: 25px 10px;
+}
+
+/* responsive  */
+@media screen and (max-width:600px){
+    .loginform{
+        background-color: #fff;
+        width: 90%;
+        margin: 35% auto;
+        height: 100%;
+        
+    }
+}

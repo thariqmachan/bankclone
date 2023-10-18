@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+.header{
+    width: 100w;
+    height: 80px;
+    background-color: bisque;
+    
+}
+.nav-item a{
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
