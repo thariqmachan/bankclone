@@ -7,12 +7,12 @@
         <form>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input  [placeholder]="data2" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input [(ngModel)]="acno" name="acno"  [placeholder]="data2" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1"  class="form-label">Password</label>
-              <input (change)="pswChange($event)" type="password"  placeholder="Enter password" class="form-control" id="exampleInputPassword1">
+              <input [(ngModel)]="psw" name="psw" (change)="pswChange($event)" type="password"  placeholder="Enter password" class="form-control" id="exampleInputPassword1">
             </div>
             <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -22,7 +22,7 @@
             <button (click)="login()" type="submit" class="btn btn-primary col-lg-12 col-12 mt-2 mb-3">Login</button>
          
                 dont have an account ?
-                &nbsp;&nbsp;&nbsp;<a href="#">Create Account</a>
+                &nbsp;&nbsp;&nbsp;<a href="/signup">Create Account</a>
           
           </form>
     </div> 
